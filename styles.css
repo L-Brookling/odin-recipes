@@ -1,0 +1,28 @@
+* {
+    background-color: bisque;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.recipe-list {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    margin: 25px;
+}
+
+#main-image, #main-chicken, #main-croque-madame {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
