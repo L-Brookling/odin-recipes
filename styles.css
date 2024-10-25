@@ -5,24 +5,38 @@
 }
 
 h1 {
+    background-color: burlywood;
     font-size: 50px;
     text-align: center;
 }
 
-.recipe-list {
-    font-size: 20px;
-    text-align: center;
+h2, h3 {
+    display: block;
+    padding: 10px;
+    background-color: burlywood;
 }
 
 a {
-    margin: 25px;
+    display: block;
+    background-color: burlywood;
+    padding: 10px;
+    margin-left: -40px;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 135px;
 }
 
-#main-image, #main-chicken, #main-croque-madame {
+img {
     height: auto;
     width: 500px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+}
+
+.thumbnail {
+    height: 300px;
+    width: auto;
+    position: absolute;
+    clip: rect(50px, 400px, 185px, 0);
 }
